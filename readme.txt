@@ -2,6 +2,8 @@ DayZ Modular Loot System Files XML Mod Changelog & Terms Of Use
 
 This batch created 230526.
 
+These files and code snippets are offered for use as a BETA playtest. They may contain errors that cause errors on your server.
+
 These XML files will make various changes to your Community Server, without editing the vanilla files:
 
 -------------------------------------
