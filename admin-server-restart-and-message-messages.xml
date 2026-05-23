@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<messages>
+
+	 <message>
+        <deadline>480</deadline><!-- 8 hour restart -->
+        <shutdown>1</shutdown>
+        <text>#name will shutdown in #tmin minutes.</text>
+    </message>
+
+</messages>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!-- this code will make new spawns of Boat_01 (various colours) to spawn with spark-plug.
+
+To use, stop your server, then copy this file into the "custom" folder inside your mission directory
+
+eg
+
+\DayZServer\mpmissions\dayzOffline.chernarusplus\custom
+
+(if your server does not have a custom folder in your missions main directory, simply make one.)
+
+Next, open your cfgeconomy.xml file and near the bottom, above the closing
+
+</economycore>
+
+tag, insert:
+
+<ce folder="custom">
+	<file name="Veh-Boat_01-complete-cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
+
+If you are already using files to append your vanilla mission files, it should look something like this:
+
+<ce folder="custom">
+	<file name="some-other-types-file.xml" type="types" />
+	<file name="some-other-events.xml" type="events" />
+	<file name="Veh-Boat_01-complete-cfgspawnabletypes.xml" type="spawnabletypes" />
+	<file name="some-other-messages.xml" type="messages" />
+	<file name="some-other-globals.xml" type="globals" />
+	</ce>
+
+Vailidate your edited files to check you haven't made any mistakes with https://www.xmlvalidation.com/
+
+Restart your server.
+
+Enjoy!
+
+Dominus vobiscum! scalespeeder dayz 1.29 April 2026
+
+-->
+
+<spawnabletypes>
+
+
+	<type name="Boat_01_Black">
+	<damage min="0.1" max="0.2" />
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="Boat_01_Blue">
+	<damage min="0.1" max="0.2" />
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="Boat_01_Camo">
+	<damage min="0.1" max="0.2" />
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="Boat_01_Orange">
+	<damage min="0.1" max="0.2" />
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.0" />
+		</attachments>
+	</type>
+	
+</spawnabletypes>
