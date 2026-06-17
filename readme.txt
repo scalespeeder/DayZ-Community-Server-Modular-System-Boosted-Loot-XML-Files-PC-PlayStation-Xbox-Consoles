@@ -36,6 +36,8 @@ More Meds. (Not Sakal).
 
 More Tools & Building Supplies. (Not Sakhal).
 
+All flags spawn, but only one of each. (Not Sakhal).
+
 -------------------------------------
 
 This is scalespeeder gamings modular loot / CLE modding system, which is designed to be update independant, simple to install  and highly customizable.
@@ -129,6 +131,8 @@ or this for a Livonia / Enoch Server:
 	
 	<file name="admin-server-restart-and-message-messages.xml" type="messages" />
 	<file name="admin-short-login-pristine-items-globals.xml" type="globals" />
+
+	<file name="flags-edited-types.xml" type="types" />
 	
 	<file name="food-livonia-more-food-and-drinks-types.xml" type="types" />
 	
