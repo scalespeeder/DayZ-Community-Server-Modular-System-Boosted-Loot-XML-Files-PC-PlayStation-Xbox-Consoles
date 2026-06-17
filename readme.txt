@@ -90,6 +90,8 @@ paste this on a Chernarus Server:
 	
 	<file name="admin-server-restart-and-message-messages.xml" type="messages" />
 	<file name="admin-short-login-pristine-items-globals.xml" type="globals" />
+
+	<file name="flags-edited-types.xml" type="types" />
 	
 	<file name="food-chernarus-more-food-and-drinks-types.xml" type="types" />
 	
