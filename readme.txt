@@ -207,6 +207,67 @@ Restart your server & changes should start to take effect. How quickly will depe
 
 ----------
 
+Additional Settings:
+
+Ensure cfggameplay.json is activated in your server settings.
+
+For Nitrado Console Servers it's a toggle in the "Settings, General" part of your Server Dashboard.
+
+For PC Nitrado Servers it's a toggle in the "Settings, General" part of the dashboard AND the Expert Settings (serverDZ.cfg) file.
+
+For other server providers it'll probably be in your dashboard and / or your serverDZ.cfg file.
+
+Build Anywhere:
+
+Open your servers cfggameplay.json file.
+
+Replace the vanilla "BaseBuildingData" section with this:
+
+"BaseBuildingData":
+	{
+		"HologramData":
+		{
+			"disableIsCollidingBBoxCheck": true,
+			"disableIsCollidingPlayerCheck": true,
+			"disableIsClippingRoofCheck": true,
+			"disableIsBaseViableCheck": true,
+			"disableIsCollidingGPlotCheck": true,
+			"disableIsCollidingAngleCheck": true,
+			"disableIsPlacementPermittedCheck": true,
+			"disableHeightPlacementCheck": true,
+			"disableIsUnderwaterCheck": true,
+			"disableIsInTerrainCheck": true,
+			"disableColdAreaBuildingCheck": true,
+			"disallowedTypesInUnderground": ["FenceKit","TerritoryFlagKit","WatchtowerKit"]
+		},
+		"ConstructionData":
+		{
+			"disablePerformRoofCheck": true,
+			"disableIsCollidingCheck": true,
+			"disableDistanceCheck": true
+		}
+	},
+	
+Navigation Aids Don't Require Items In Inventory:
+
+Replace your vanilla "MapData" section with this:
+
+"MapData":
+	{
+		"ignoreMapOwnership": true,
+		"ignoreNavItemsOwnership": true,
+		"displayPlayerPosition": true,
+		"displayNavInfo": true
+	},
+	
+(Please note that unless a console has a keyboard plugged, so you can press m, console players will have to find a map to use this feature.)
+
+save and upload if necessary, restart server.
+
+For Password Changes, Whitelist, Passage Of Time (How Long Night & Day Are) & Other Common Settings, See This Video:
+
+youtube/asihujdoiahwdoiawhj
+
 Dominus vobiscum! scalespeeder
 
 GOOD LUCK!
