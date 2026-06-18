@@ -266,7 +266,7 @@ save and upload if necessary, restart server.
 
 For Password Changes, Whitelist, Passage Of Time (How Long Night & Day Are) & Other Common Settings, See This Video:
 
-youtube/asihujdoiahwdoiawhj
+https://youtu.be/xVrcG6bi2hE
 
 Dominus vobiscum! scalespeeder
 
