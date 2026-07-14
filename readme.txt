@@ -2,7 +2,16 @@ DayZ Modular Loot System Files XML Mod Changelog & Terms Of Use
 
 This batch created 230526.
 
-These files and code snippets are offered for use as a BETA playtest. They may contain mistakes that cause errors on your server.
+-------------------------------------
+
+Update on 14th Julty 2026 For 1.29 "Road To Badlands" Update:
+
+-more SCARH added to guns-boosted-chernarus-types.xml guns-boosted-livonia-types.xml 
+-more & full Mag_SCARH_20Rnd added to guns-chernarus-boosted-full-mags-types.xml guns-livonia-enoch-boosted-full-mags-types.xml
+- full Mag_SCARH_20Rnd_Black added to guns-sakhal-full-mags-types.xml
+-"complete" SCARH & SCARH_Black added to guns-complete-pristine-spawnabletypes.xml
+
+-------------------------------------
 
 These XML files will make various changes to your Community Server, without editing the vanilla files:
 
@@ -35,8 +44,6 @@ More Drinks. (Not Sakhal).
 More Meds. (Not Sakal).
 
 More Tools & Building Supplies. (Not Sakhal).
-
-All flags spawn, but only one of each. (Not Sakhal).
 
 -------------------------------------
 
@@ -92,7 +99,7 @@ paste this on a Chernarus Server:
 	
 	<file name="admin-server-restart-and-message-messages.xml" type="messages" />
 	<file name="admin-short-login-pristine-items-globals.xml" type="globals" />
-
+	
 	<file name="flags-edited-types.xml" type="types" />
 	
 	<file name="food-chernarus-more-food-and-drinks-types.xml" type="types" />
@@ -131,8 +138,6 @@ or this for a Livonia / Enoch Server:
 	
 	<file name="admin-server-restart-and-message-messages.xml" type="messages" />
 	<file name="admin-short-login-pristine-items-globals.xml" type="globals" />
-
-	<file name="flags-edited-types.xml" type="types" />
 	
 	<file name="food-livonia-more-food-and-drinks-types.xml" type="types" />
 	
