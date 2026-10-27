@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!-- this code will make new spawns of Motorbike_01 (Step-Thru Moped) & Motorbike_02 (Dirt Bike) spawn complete, but no fuel.
+
+To use, stop your server, then copy this file into the "custom" folder inside your mission directory
+
+eg
+
+\DayZServer\mpmissions\dayzOffline.chernarusplus\custom
+
+(if your server does not have a custom folder in your missions main directory, simply make one.)
+
+Next, open your cfgeconomy.xml file and near the bottom, above the closing
+
+</economycore>
+
+tag, insert:
+
+<ce folder="custom">
+	<file name="Veh-Motorbike_01-02-Complete-cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
+
+If you are already using files to append your vanilla mission files, it should look something like this:
+
+<ce folder="custom">
+	<file name="some-other-types-file.xml" type="types" />
+	<file name="some-other-events.xml" type="events" />
+	<file name="Veh-Motorbike_01-02-Complete-cfgspawnabletypes.xml" type="spawnabletypes" />
+	<file name="some-other-messages.xml" type="messages" />
+	<file name="some-other-globals.xml" type="globals" />
+	</ce>
+
+Vailidate your edited files to check you haven't made any mistakes with https://www.xmlvalidation.com/
+
+Restart your server.
+
+Enjoy!
+
+Dominus vobiscum! scalespeeder dayz 1.30 october 2026
+
+-->
+
+<spawnabletypes>
+	<!--Motorbikes-->
+	<type name="Motorbike_01_Blue">
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.0" />
+		</attachments>
+			<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_01_Wheel_1" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_01_Wheel_2" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="Motorbike_01_Red">
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.0" />
+		</attachments>
+			<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_01_Wheel_1" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_01_Wheel_2" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="Motorbike_01_Yellow">
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.0" />
+		</attachments>
+			<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_01_Wheel_1" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_01_Wheel_2" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="Motorbike_02_Red">
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.0" />
+		</attachments>
+			<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_02_Wheel_1" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_02_Wheel_2" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_02_ShieldFront_Red" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_02_ShieldLeft_Red" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_02_ShieldRight_Red" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="Motorbike_02_Green">
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.0" />
+		</attachments>
+			<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_02_Wheel_1" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_02_Wheel_2" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_02_ShieldFront_Green" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_02_ShieldLeft_Green" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_02_ShieldRight_Green" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="Motorbike_02_Blue">
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.0" />
+		</attachments>
+			<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_02_Wheel_1" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_02_Wheel_2" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_02_ShieldFront_Blue" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_02_ShieldLeft_Blue" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_02_ShieldRight_Blue" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="Motorbike_02_Yellow">
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.0" />
+		</attachments>
+			<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_02_Wheel_1" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_02_Wheel_2" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_02_ShieldFront_Yellow" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_02_ShieldLeft_Yellow" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Motorbike_02_ShieldRight_Yellow" chance="1.0" />
+		</attachments>
+	</type>
+	
+</spawnabletypes>
