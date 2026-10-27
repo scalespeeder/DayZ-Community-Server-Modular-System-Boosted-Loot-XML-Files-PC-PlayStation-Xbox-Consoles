@@ -2,16 +2,7 @@ DayZ Modular Loot System Files XML Mod Changelog & Terms Of Use
 
 This batch created 230526.
 
--------------------------------------
-
-Update on 14th Julty 2026 For 1.29 "Road To Badlands" Update:
-
--more SCARH added to guns-boosted-chernarus-types.xml guns-boosted-livonia-types.xml 
--more & full Mag_SCARH_20Rnd added to guns-chernarus-boosted-full-mags-types.xml guns-livonia-enoch-boosted-full-mags-types.xml
-- full Mag_SCARH_20Rnd_Black added to guns-sakhal-full-mags-types.xml
--"complete" SCARH & SCARH_Black added to guns-complete-pristine-spawnabletypes.xml
-
--------------------------------------
+(Nasdara files created 271026)
 
 These XML files will make various changes to your Community Server, without editing the vanilla files:
 
@@ -197,6 +188,42 @@ or this for a Sakhal Server:
 	<file name="veh-more-VehicleTruck01-events.xml" type="events" />	
 	
 	</ce>
+	
+or paste this on your Nasdara Server:
+
+	<ce folder="custom">
+	
+	<file name="admin-server-restart-and-message-messages.xml" type="messages" />
+	<file name="admin-short-login-pristine-items-globals.xml" type="globals" />
+	
+	<file name="food-nasdara-more-food-and-drinks-types.xml" type="types" />
+	
+	<file name="meds-boosted-types.xml" type="types" />
+	
+	<file name="tools-boosted-misc-types.xml" type="types" />
+	
+	<file name="guns-complete-pristine-spawnabletypes.xml" type="spawnabletypes" />
+	<file name="guns-nasdara-boosted-full-mags-types.xml" type="types" />
+	<file name="guns-boosted-nasdara-types.xml" type="types" />
+	<file name="guns-nasdara-boosted-box-ammo-less-loose-types.xml" type="types" />
+	
+	<file name="Veh-Truck_01_Covered-complete-nasdara-building-supplies-cfgspawnabletypes.xml" type="spawnabletypes" />
+	<file name="Veh-CivilianSedan-complete-with-FRod-cfgspawnabletypes.xml" type="spawnabletypes" />
+   	<file name="Veh-Sedan_02-complete-with-Farming-cfgspawnabletypes.xml" type="spawnabletypes" />
+	<file name="Veh-OffroadHatchback-complete-with-M4A1-cfgspawnabletypes.xml" type="spawnabletypes" />
+	<file name="Veh-Hatchback_02-complete-with-Hunting-cfgspawnabletypes.xml" type="spawnabletypes" />
+	<file name="Veh-Offroad_02-complete-with-weapons-cfgspawnabletypes.xml" type="spawnabletypes" />
+	<file name="Veh-Motorbike_01-02-Complete-cfgspawnabletypes.xml" type="spawnabletypes" />
+	<file name="Veh-Boat_01-complete-cfgspawnabletypes.xml" type="spawnabletypes" />
+	
+	<file name="veh-more-VehicleCivilianSedan-events.xml" type="events" />
+	<file name="veh-more-VehicleHatchback02-events.xml" type="events" />
+	<file name="veh-more-VehicleOffroad02-events.xml" type="events" />
+	<file name="veh-more-VehicleOffroadHatchback-events.xml" type="events" />
+	<file name="veh-more-VehicleSedan02-events.xml" type="events" />
+	<file name="veh-more-VehicleTruck01-events.xml" type="events" />
+	<file name="veh-more-motorbikes-events.xml" type="events" />
+	</ce>
 
 Save the file.
 
@@ -245,11 +272,14 @@ Replace the vanilla "BaseBuildingData" section with this:
 			"disableColdAreaBuildingCheck": true,
 			"disallowedTypesInUnderground": ["FenceKit","TerritoryFlagKit","WatchtowerKit"]
 		},
-		"ConstructionData":
+			"ConstructionData":
 		{
 			"disablePerformRoofCheck": true,
 			"disableIsCollidingCheck": true,
-			"disableDistanceCheck": true
+			"disableDistanceCheck": true,
+			 "disableItemFalling": false,
+			"disableDropAttachmentsOnFall": false,
+			"disableRefundMaterialsOnFall": false
 		}
 	},
 	
