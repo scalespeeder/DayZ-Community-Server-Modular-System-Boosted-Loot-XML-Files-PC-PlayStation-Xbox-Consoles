@@ -113,6 +113,8 @@ paste this on a Chernarus Server:
 	<file name="Veh-Hatchback_02-complete-with-Hunting-cfgspawnabletypes.xml" type="spawnabletypes" />
 	<file name="Veh-Boat_01-complete-cfgspawnabletypes.xml" type="spawnabletypes" />
 	<file name="Veh-Offroad_02-complete-with-weapons-cfgspawnabletypes.xml" type="spawnabletypes" />
+	<file name="Veh-Motorbike_01-02-Complete-cfgspawnabletypes.xml" type="spawnabletypes" />
+
 	
 	<file name="veh-more-VehicleBoat-events.xml" type="events" />
 	<file name="veh-more-VehicleCivilianSedan-events.xml" type="events" />
@@ -150,6 +152,8 @@ or this for a Livonia / Enoch Server:
 	<file name="Veh-Hatchback_02-complete-with-Hunting-cfgspawnabletypes.xml" type="spawnabletypes" />
 	<file name="Veh-Boat_01-complete-cfgspawnabletypes.xml" type="spawnabletypes" />
 	<file name="Veh-Offroad_02-complete-with-weapons-cfgspawnabletypes.xml" type="spawnabletypes" />
+	<file name="Veh-Motorbike_01-02-Complete-cfgspawnabletypes.xml" type="spawnabletypes" />
+
 	
 	<file name="veh-more-VehicleCivilianSedan-events.xml" type="events" />
 	<file name="veh-more-VehicleHatchback02-events.xml" type="events" />
@@ -178,6 +182,8 @@ or this for a Sakhal Server:
 	<file name="Veh-OffroadHatchback-complete-with-M4A1-cfgspawnabletypes.xml" type="spawnabletypes" />
 	<file name="Veh-Hatchback_02-complete-with-Hunting-cfgspawnabletypes.xml" type="spawnabletypes" />
 	<file name="Veh-Boat_01-complete-cfgspawnabletypes.xml" type="spawnabletypes" />
+	<file name="Veh-Motorbike_01-02-Complete-cfgspawnabletypes.xml" type="spawnabletypes" />
+
 
 	<file name="veh-more-VehicleBoat-events.xml" type="events" />
 	<file name="veh-more-VehicleCivilianSedan-events.xml" type="events" />
